@@ -13,7 +13,7 @@ export default function Nav() {
                 }}
             >
 
-                <div className="container-fluid ">
+                <div className="container-fluid">
                     <a className="navbar-brand" href="#">
                         <img
                             src="/images/logo-light.png"
@@ -87,14 +87,14 @@ export default function Nav() {
                                 Sign In 
                             </a>
                             </li>
-                            {/* <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <a class='dropdown-item' href='/'>
-                                            Masuk
-                                        </a>
-                                        <a class='dropdown-item' href='/'>
-                                            Profile
-                                        </a>
-                                    </div> */}
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <a class='dropdown-item' href='/'>
+                                    Masuk
+                                </a>
+                                <a class='dropdown-item' href='/'>
+                                    Profile
+                                </a>
+                            </div>
                         </ul>
                     </div>
                 </div>

@@ -20,6 +20,13 @@ class CbtController extends Controller
         ]);
     }
 
+    public function dashboard()
+    {
+        return Inertia::render('TestDashboard', [
+            'title' => 'CBT Dashboard',
+        ]);
+    }
+
     /**
      * Show the form for creating a new resource.
      *

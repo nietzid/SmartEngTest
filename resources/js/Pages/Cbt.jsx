@@ -7,9 +7,8 @@ export default function Cbt(props) {
         <div>
             <Head title={props.title}/>
             <Nav/>
-            {/* <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"/> */}
             <body
-                style={{ backgroundColor: '#3E6D81' }} 
+                style={{ backgroundColor: '#3E6D81' }}
                 className='min-h-screen'
             >
                 <div className="container-fluid mt-5 pt-5">
@@ -39,7 +38,7 @@ export default function Cbt(props) {
                             className="btn ps-5 pe-5 text-light"
                             style={{ backgroundColor: "#5E7B87" }}
                             >
-                            Create Test
+                            Test Dashboard
                             </button>
                         </a>
                         </div>
@@ -59,5 +58,5 @@ export default function Cbt(props) {
                 </div>
             </body>
         </div>
-    ) 
+    )
 }

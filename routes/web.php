@@ -28,6 +28,8 @@ Route::get('/', function () {
 
 Route::get('/cbt',[CbtController::class, 'index']);
 
+Route::get('/test-dashboard',[CbtController::class, 'dashboard']);
+
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
