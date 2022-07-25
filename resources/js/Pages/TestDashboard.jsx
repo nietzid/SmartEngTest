@@ -2,6 +2,7 @@ import React from 'react';
 // import Row from 'react-bootstrap/Row'
 import { Link, Head } from '@inertiajs/inertia-react';
 import Nav from '@/Components/NavOri';
+import './Style.css'
 
 export default function TestDashboard(props) {
     return (

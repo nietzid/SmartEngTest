@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, Head } from '@inertiajs/inertia-react';
 import Nav from '@/Components/NavOri';
+import './Style.css'
 
 export default function Cbt(props) {
     return (
@@ -43,7 +44,7 @@ export default function Cbt(props) {
                         </a>
                         </div>
                         <div className="col-2 text-center">
-                        <a href="/cbt_test">
+                        <a href="/cbt_start">
                             <button
                             type="button"
                             className="btn ps-5 pe-5 text-light"

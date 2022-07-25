@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, Head } from '@inertiajs/inertia-react';
+import './Style.css'
 
 export default function Welcome(props) {
     return (
