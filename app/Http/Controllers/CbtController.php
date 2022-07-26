@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\cbt;
+use App\Models\TestCollection;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
 
@@ -22,8 +23,10 @@ class CbtController extends Controller
 
     public function dashboard()
     {
+        $tests = TestCollection::all();
         return Inertia::render('TestDashboard', [
             'title' => 'CBT Dashboard',
+            'tests' => $tests,
         ]);
     }
 

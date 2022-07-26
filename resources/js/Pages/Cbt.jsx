@@ -33,7 +33,7 @@ export default function Cbt(props) {
                     <div className="row mt-4">
                         <div className="col-4" />
                         <div className="col-2 text-center">
-                        <a href="/cbt_createtest">
+                        <a href="/test-dashboard">
                             <button
                             type="button"
                             className="btn ps-5 pe-5 text-light"
