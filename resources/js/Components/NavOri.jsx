@@ -6,20 +6,15 @@ export default function Nav() {
         <div>
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"/>
             <nav
-                className="navbar navbar-expand-lg navbar-light ps-3 pe-3 fixed-top"
+                className="navbar navbar-expand-lg navbar-light ps-3 pe-3"
                 style={{
                     backgroundColor: "#3E6D81",
                     boxShadow: "0px 0px 10px -2px rgba(0,0,0,0.35)"
-                }}
-            >
+                }} >
 
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">
-                        <img
-                            src="/images/logo-light.png"
-                            width="60%"
-                            alt=""
-                        />
+                        <img src="/images/logo-light.png" width="60%" alt="Home"/>
                     </a>
                     <button
                         className="navbar-toggler"

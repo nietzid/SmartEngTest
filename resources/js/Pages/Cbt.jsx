@@ -11,7 +11,7 @@ export default function Cbt(props) {
                 style={{ backgroundColor: '#3E6D81' }}
                 className='min-h-screen'
             >
-                <div className="container-fluid mt-5 pt-5">
+                <div className="container-fluid pt-5">
                     <h2
                         className="mt-3 mb-5 text-center"
                         style={{ color: "white", fontWeight: 800 }}

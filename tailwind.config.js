@@ -15,7 +15,7 @@ module.exports = {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
             },
             fontFamily: {
-                'poppins': ['"Poppins"', 'cursive'],
+                poppins: ['"Poppins"', 'cursive'],
             },
             colors: {
                 'regal-blue': '#3E6D81',
