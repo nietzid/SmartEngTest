@@ -2,7 +2,9 @@
 
 namespace Database\Seeders;
 
+use App\Models\Passage;
 use App\Models\Question;
+use App\Models\User;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -15,11 +17,8 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-//         \App\Models\User::factory(10)->create();
-
-         Question::factory(20)->create([
-             'name' => 'Test User',
-             'email' => 'test@example.com',
-         ]);
+        User::factory(20)->create();
+        Passage::factory(20)->create();
+        Question::factory(20)->create();
     }
 }
