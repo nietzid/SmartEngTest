@@ -26,12 +26,16 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('/cbt',[CbtController::class, 'index']);
+Route::get('/cbt', [CbtController::class, 'index']);
 
-Route::get('/test-dashboard',[CbtController::class, 'dashboard']);
+Route::get('/test-dashboard', [CbtController::class, 'dashboard']);
+
+Route::get('/cbt_start', [CbtController::class, 'CbtStart']);
+
+Route::get('/start_test', [CbtController::class, 'StartTest']);
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';

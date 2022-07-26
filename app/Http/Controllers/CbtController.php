@@ -27,6 +27,19 @@ class CbtController extends Controller
         ]);
     }
 
+    public function CbtStart()
+    {
+        return Inertia::render('CbtStart', [
+            'title' => 'CBT Start Test',
+        ]);
+    }
+
+    public function StartTest()
+    {
+        return Inertia::render('StartTest', [
+            'title' => 'CBT Test',
+        ]);
+    }
     /**
      * Show the form for creating a new resource.
      *
